@@ -1,5 +1,7 @@
 import React from 'react';
 
+// it is a `class component` because it needs a local state management 
+// or access to lifecycle methods in the component
 class Lifecycles extends React.Component {
   constructor() {
     super();
